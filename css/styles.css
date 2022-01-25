@@ -404,6 +404,12 @@ img {
 }
 
 .modal-input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.16;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
     height: 40px;
     min-width: 100%;
     border: 1px solid rgba(33,33,33,0.2);
@@ -433,6 +439,7 @@ img {
     padding: 12px 16px;
     border: 1px solid rgba(33,33,33,0.2);
     cursor: pointer;
+    border-radius: 4px;
 }
 .modal-textarea::placeholder {
     font-family: 'Roboto', sans-serif;
@@ -514,6 +521,7 @@ top: 4px;
 
 .checkbox-modal:checked +.modal-check-label>span {
     background-color: var(--accent-color);
+    border: none;
     
 }
 
@@ -1046,6 +1054,22 @@ top: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #2F303A;
     margin-right:12px;
+    padding-left: 16px;
+    font-family:'Roboto',sans-serif;
+    font-weight: 700;
+    color: var(--primary-white-color);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+}
+
+.footer-input::placeholder {
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
 }
 
 .footer-btn {
