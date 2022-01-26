@@ -440,6 +440,7 @@ img {
     border: 1px solid rgba(33,33,33,0.2);
     cursor: pointer;
     border-radius: 4px;
+    resize: none;
 }
 .modal-textarea::placeholder {
     font-family: 'Roboto', sans-serif;
@@ -451,12 +452,12 @@ img {
     color: rgba(117,117,117,0.5);
 }
 
-.input-name-box svg,
-.input-email-box svg,
-.input-tel-box svg {
+.input-name-box .modal-icon,
+.input-email-box .modal-icon,
+.input-tel-box .modal-icon {
     position: absolute;
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
     top: 37px;
     left: 16px;
     transform: translateY(-50%);
@@ -1088,16 +1089,13 @@ top: 4px;
     height: 50px;
     min-width: 200px;
     cursor: pointer;
+    border: transparent;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-btn:focus,
-.footer-btn:hover {
-
-}
 
 .container-btn {
     display: flex;
